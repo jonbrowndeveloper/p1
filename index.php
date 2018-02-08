@@ -6,7 +6,6 @@
 		<meta charset="utf-8">
 
 	    <!-- Bootstrap -->
-	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="css/bootstrap.css" rel="stylesheet" media="screen">
 	</head>
 
@@ -45,33 +44,36 @@
 				<div class="span4"></div>
 			</div>
 
-			<h2 class="text-center">About Me</h2>
-			<p class="text-center">
-				My name is Jon Brown. I have been building software applications for a good 7 years starting out with good Ol' C and objective C. From there, I have done web design to working with numerous API's my favorite html/css version of which being Twitter's Bootstrap. I have done a bit of back end web design with PHP in the past (so this should be a good time), courses and work in .NET, and in the recent past I have moved on the Apple side to Swift 3.
-			</p>
+			<div class="row">
+				<div class="span2"></div>
+				<div class="span8">
 
-			<br>
+					<h2 class="text-center">About Me</h2>
+					<p class="text-center">
+						My name is Jon Brown. I have been building software applications for a good 7 years starting out with good Ol' C and objective C. From there, I have done web design to working with numerous API's my favorite html/css version of which being Twitter's Bootstrap. I have done a bit of back end web design with PHP in the past (so this should be a good time), courses and work in .NET, and in the recent past I have moved on the Apple side to Swift 3.
+					</p>
 
-			<p class="text-center">
-				I also love to write music and hope to someday cross both wires of music and software development. Maybe write algorithms that mimic the composition process (although that been done and not too successfully) or write programs to help musicians or engage music listeners.
-			</p>
+					<br>
 
-			<p>
-				<br>
-				<blockquote>
-					<h3>
-						<?php echo $randomQuotes[mt_rand(0,count($randomQuotes)-1)]; ?>
-					</h3>
-				</blockquote>
-				<br>
-				<h4>- Mark Twain</h4>
-			</p>
+					<p class="text-center">
+						I also love to write music and hope to someday cross both wires of music and software development. Maybe write algorithms that mimic the composition process (although that been done and not too successfully) or write programs to help musicians or engage music listeners.
+					</p>
+
+					
+					<br>
+					<blockquote>
+						<h3>
+							<?php echo $randomQuotes[mt_rand(0,count($randomQuotes)-1)]; ?>
+						</h3>
+					</blockquote>
+					<br>
+					<h4>- Mark Twain</h4>
+					
+				</div>
+				<div class="span2"></div>
+			</div>
 
 		</div>
-	<!-- default bootstrap js files -->
-
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 
 	</body>
 

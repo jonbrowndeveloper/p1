@@ -1,6 +1,6 @@
 # Project 1
 + By: Jonathon Brown
-+ Production URL: <http://p1.jonbrowndeveloper.com>
++ Production URL: <http://p1.jonbrowndeveloper.me>
 
 ## Outside resources
 
@@ -10,4 +10,4 @@ also went through the [PHP Documentation](http://php.net/manual/en) for things l
 
 ## Notes for instructor
 
-no notes -so -far!
+no notes *so *far!
