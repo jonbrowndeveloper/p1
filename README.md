@@ -10,4 +10,4 @@ also went through the [PHP Documentation](http://php.net/manual/en) for things l
 
 ## Notes for instructor
 
-no notes *so *far!
+no notes so far!
