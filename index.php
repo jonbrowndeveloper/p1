@@ -19,8 +19,18 @@
 		$randomQuotes = array(
 			"I have never let my schooling interfere with my education.",
 			"Travel is fatal to prejudice, bigotry, and narrow-mindedness.",
-			"If you tell the truth, you don't have to remember anything."
+			"If you tell the truth, you don't have to remember anything.",
+			"The secret of getting ahead is getting started.",
+			"Whenever you find yourself on the side of the majority, it is time to pause and reflect.",
+			"The two most important days in your life are the day you are born and the day you find out why.",
+			"The report of my death was an exaggeration.",
+			"Truth is stranger than fiction, but it is because Fiction is obliged to stick to possibilities; Truth isn't.",
+			"Golf is a good walk spoiled.",
+			"It's not the size of the dog in the fight, it's the size of the fight in the dog."
+
 		);
+
+		?>
 
 		<!-- end php-->
 
@@ -50,28 +60,12 @@
 				<br>
 				<blockquote>
 					<h3>
-						<?php 
-						echo "Hello world!"; 
-						?>
-
-						<?php
-						$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
-						$rand_keys = array_rand($input, 2);
-						echo $input[$rand_keys[0]] . "\n";
-						echo $input[$rand_keys[1]] . "\n";
-						?>
+						<?php echo $randomQuotes[mt_rand(0,count($randomQuotes)-1)]; ?>
 					</h3>
 				</blockquote>
 				<br>
 				<h4>- Mark Twain</h4>
 			</p>
-
-			<?php
-			$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
-			$rand_keys = array_rand($input, 2);
-			echo $input[$rand_keys[0]] . "\n";
-			echo $input[$rand_keys[1]] . "\n";
-			?>
 
 		</div>
 	<!-- default bootstrap js files -->
